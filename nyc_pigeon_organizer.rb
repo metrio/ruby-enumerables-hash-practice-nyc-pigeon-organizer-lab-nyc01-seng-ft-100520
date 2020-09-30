@@ -7,10 +7,12 @@ def nyc_pigeon_organizer(data)
      if !nyc_pigeon[name]
        nyc_pigeon[name] = {}
      end
-     if  nyc_pigeon[name][key]
-  binding.pry
-  nyc_pigeon
+     if !nyc_pigeon[names][keys]
+       !nyc_pigeon[names][keys] = {}
+       
+
+  nyc_pigeon[name][keys].push(in_keys)
     end    
-binding.pry
+
   end
 end
