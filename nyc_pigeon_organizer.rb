@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
        nyc_pigeon[name] = {}
      end
      if !nyc_pigeon[names][keys]
-       !nyc_pigeon[names][keys] = {}
+       !nyc_pigeon[names][keys] = []
        
      end
   nyc_pigeon[name][keys].push(in_keys)
